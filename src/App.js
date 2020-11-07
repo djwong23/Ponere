@@ -1,25 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-
+import man from './man.svg';
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{alignItems: "center"}}>
+      <p style={{textAlign: "center"}}>Select which area you'd like like to exercise:</p>
+      <img className = "photo" src={man}/>
     </div>
-  );
+  )
+  
 }
 
 export default App;

@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.photo {
+  height: 500px;
+}
+
+html, body, #root {
+  display: flex;
+  background: linear-gradient(#ee847d, #bebcba);
+  color: #000000;
+  height: 100%;
+  margin: 0%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center;
+
+}
