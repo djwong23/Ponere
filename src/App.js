@@ -30,7 +30,7 @@ function App() {
       </div>
       <div className="bannerFiller"></div>
       <h1 style={{ textAlign: "center", fontSize: "20px" }}>
-              Select which area you'd like to correct:
+        Select which area you'd like to correct:
       </h1>
 
       <div className="imageHolder">
