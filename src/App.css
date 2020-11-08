@@ -3,6 +3,38 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.neck {
+  opacity: 0;
+  position:absolute;
+}
+.upper {
+  opacity: 0;
+
+}
+.upper1 {
+  left:0;
+  position:absolute;
+}
+
+.upper2 {
+  right:0;
+  position:absolute;
+}
+
+.lower{
+  opacity: 0;
+}
+
+.lower1 {
+  left:0;
+  position:absolute;
+}
+.lower2 {
+  right:0;
+  position: absolute;
+
+}
 @media only screen and (max-width: 800px) {
   .photo {
     width: 80%;
@@ -160,6 +192,7 @@ a:hover {
   width: auto;
   height: auto;
 }
-/*.popover-header{
-
-}*/
+.popoverStyle{
+  width: 100px;
+  height: 100px;
+}
