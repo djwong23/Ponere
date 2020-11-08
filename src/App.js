@@ -1,6 +1,8 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import man from "./mans.png";
+import ReactTooltip from 'react-tooltip';
+
 function App() {
   return (
     <div>
@@ -15,9 +17,10 @@ function App() {
       </h1>
       <div className="imageHolder">
           <img className="photo" src={man} alt = "body for selection"/>
-            <a id="neckDiv" href="neck"></a>
-            <a id="upperBackDiv" href="upperBack"></a>
-            <a id="lowerBackDiv" href="lowerBack"></a>
+            <a data-tip = "Neck" id="neckDiv" href="neck"></a>
+            <a data-tip = "Upper Back & Shoulders" id="upperBackDiv" href="upperBack"></a>
+            <a data-tip = "Lower Back & Hip Flexors" id="lowerBackDiv" href="lowerBack"></a>
+            <ReactTooltip/>
           </div>
     </div>
   );
