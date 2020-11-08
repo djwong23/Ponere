@@ -172,7 +172,7 @@ a:hover {
   position: absolute;
 }
 #neckDiv:hover {
-  background-color: rgb(255, 95, 95);
+  background-color: rgb(255, 255, 255);
   opacity: 25%;
 }
 #upperBackDiv {
@@ -180,7 +180,7 @@ a:hover {
   position: absolute;
 }
 #upperBackDiv:hover {
-  background-color: rgb(180, 64, 64);
+  background-color: rgb(245, 245, 245);
   opacity: 25%;
 }
 #lowerBackDiv {
@@ -188,7 +188,7 @@ a:hover {
   position: absolute;
 }
 #lowerBackDiv:hover {
-  background-color: rgb(180, 64, 64);
+  background-color: rgb(160, 160, 160);
   opacity: 25%;
 }
 .imageHolder {
@@ -198,9 +198,16 @@ a:hover {
   height: auto;
 }
 .images {
-  border: rgb(224, 224, 224);
+  border: rgb(233, 233, 233);
   box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
   border-width: 25px;
   border-style: solid;
   border-radius: 25px;
+}
+.instruction{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
 }
