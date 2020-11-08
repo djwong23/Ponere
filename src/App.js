@@ -33,39 +33,39 @@ function App() {
 
       <div className="imageHolder">
         <img
-          className="neck"
+          className="neck fade images"
           id="neck"
           width="30%"
           height="auto"
           src={neck}
           alt="neck"
         />
-        <div className="upper" id="upper">
+        <div className="upper fade" id="upper">
           <img
-            className="upper1"
+            className="upper1 images"
             width="30%"
             height="auto"
             src={upperback1}
             alt="back"
           />
           <img
-            className="upper2"
+            className="upper2 images"
             width="30%"
             height="auto"
             src={upperback2}
             alt="back"
           />
         </div>
-        <div className="lower" id="lower">
+        <div className="lower fade" id="lower">
           <img
-            className="lower1"
+            className="lower1 images"
             width="30%"
             height="auto"
             src={lowerback1}
             alt="lowerback1"
           />
           <img
-            className="lower2"
+            className="lower2 images"
             width="30%"
             height="auto"
             src={lowerback2}
