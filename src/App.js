@@ -17,18 +17,25 @@ function App() {
         <p style={{ textAlign: "center", fontSize: "20px" }}>
           Select which area you'd like to correct:
         </p>
-        <img className="photo" src={man} width="1000vw" height="500vh"/>
-        <Button className="foot" id="Popover1" type="button" onClick={() => toggle(1)}>
+        <img className="photo" src={man}/>
+        <Button className="neck" id="Popover1" type="button" onClick={() => toggle(1)}>
         </Button>
-        <Popover placement="bottom" isOpen={popoverOpen === 1} target="Popover1">
-          <PopoverHeader>The Foot</PopoverHeader>
+        <Popover className="popup" placement="right" isOpen={popoverOpen === 1} target="Popover1">
+          <PopoverHeader>The Neck</PopoverHeader>
           <PopoverBody>Temporary</PopoverBody>
         </Popover>
 
-        <Button className="hand" id="Popover2" type="button" onClick={() => toggle(2)}>
+        <Button className="upperback" id="Popover2" type="button" onClick={() => toggle(2)}>
         </Button>
-        <Popover placement="bottom" isOpen={popoverOpen === 2} target="Popover2">
-          <PopoverHeader>The Hand</PopoverHeader>
+        <Popover className="popup" placement="right" isOpen={popoverOpen === 2} target="Popover2">
+          <PopoverHeader>Upper Back</PopoverHeader>
+          <PopoverBody>Temporary</PopoverBody>
+        </Popover>
+
+        <Button className="lowerback" id="Popover3" type="button" onClick={() => toggle(3)}>
+        </Button>
+        <Popover className="popup" placement="right" isOpen={popoverOpen === 3} target="Popover3">
+          <PopoverHeader>Lower Back</PopoverHeader>
           <PopoverBody>Temporary</PopoverBody>
         </Popover>
       </div>
