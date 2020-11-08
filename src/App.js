@@ -5,16 +5,14 @@ import upperback1 from "./scapular-wall-slide.jpg";
 import upperback2 from "./upperRope.png";
 import lowerback1 from "./back-stretches1.jpeg";
 import lowerback2 from "./back-stretches2.jpeg";
-import neck from "./neck-stretches.jpg"
-import ReactTooltip from 'react-tooltip';
-import { UncontrolledPopover, PopoverHeader, PopoverBody } from 'reactstrap';
-
-
+import neck from "./neck-stretches.jpg";
+import ReactTooltip from "react-tooltip";
+import { UncontrolledPopover, PopoverHeader, PopoverBody } from "reactstrap";
 
 function App() {
   let picturesOpen = " ";
   function setToOpen(string) {
-    if(picturesOpen != " "){
+    if (picturesOpen != " ") {
       document.getElementById(picturesOpen).style.opacity = 0;
     }
     picturesOpen = string;
@@ -34,23 +32,61 @@ function App() {
       </h1>
 
       <div className="imageHolder">
-            <img className="neck" id="neck" width="30%" height="auto" src = {neck} alt="neck"/>
-            <div className="upper" id="upper">
-              <img className="upper1" width="30%" height="auto" src = {upperback1} alt="back"/>
-              <img className="upper2" width="30%" height="auto" src = {upperback2} alt="back"/>
-            </div>
-            <div className="lower" id="lower">
-              <img className="lower1"  width="30%" height="auto" src = {lowerback1} alt="lowerback1"/>
-              <img className="lower2"  width="30%" height="auto" src = {lowerback2} alt="lowerback2"/>
-            </div>
+        <img
+          className="neck"
+          id="neck"
+          width="30%"
+          height="auto"
+          src={neck}
+          alt="neck"
+        />
+        <div className="upper" id="upper">
+          <img
+            className="upper1"
+            width="30%"
+            height="auto"
+            src={upperback1}
+            alt="back"
+          />
+          <img
+            className="upper2"
+            width="30%"
+            height="auto"
+            src={upperback2}
+            alt="back"
+          />
+        </div>
+        <div className="lower" id="lower">
+          <img
+            className="lower1"
+            width="30%"
+            height="auto"
+            src={lowerback1}
+            alt="lowerback1"
+          />
+          <img
+            className="lower2"
+            width="30%"
+            height="auto"
+            src={lowerback2}
+            alt="lowerback2"
+          />
+        </div>
 
-            <img className="photo" src={man} alt = "body for selection"/>
-            <a data-tip = "Neck" id="neckDiv" onClick={() => setToOpen("neck")}></a>
-            <a data-tip = "Upper Back & Shoulders" id="upperBackDiv" onClick={() => setToOpen("upper")}></a>
-            <a data-tip = "Lower Back & Hip Flexors" id="lowerBackDiv" onClick={() => setToOpen("lower")}></a>
-            <ReactTooltip/>
+        <img className="photo" src={man} alt="body for selection" />
+        <a data-tip="Neck" id="neckDiv" onClick={() => setToOpen("neck")}></a>
+        <a
+          data-tip="Upper Back & Shoulders"
+          id="upperBackDiv"
+          onClick={() => setToOpen("upper")}
+        ></a>
+        <a
+          data-tip="Lower Back & Hip Flexors"
+          id="lowerBackDiv"
+          onClick={() => setToOpen("lower")}
+        ></a>
+        <ReactTooltip />
       </div>
-
     </div>
   );
 }
