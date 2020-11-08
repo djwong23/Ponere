@@ -173,7 +173,7 @@ a:hover {
 }
 #neckDiv:hover {
   background-color: rgb(255, 255, 255);
-  opacity: 25%;
+  opacity: 0.25;
 }
 #upperBackDiv {
   display: block;
@@ -181,7 +181,7 @@ a:hover {
 }
 #upperBackDiv:hover {
   background-color: rgb(245, 245, 245);
-  opacity: 25%;
+  opacity: 0.25;
 }
 #lowerBackDiv {
   display: block;
@@ -189,7 +189,7 @@ a:hover {
 }
 #lowerBackDiv:hover {
   background-color: rgb(160, 160, 160);
-  opacity: 25%;
+  opacity: 0.25;
 }
 .imageHolder {
   display: block;
