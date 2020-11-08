@@ -1,6 +1,6 @@
 // import logo from "./logo.svg";
 import "./App.css";
-import man from "./man.svg";
+import man from "./mans.png";
 function App() {
   return (
     <div>
@@ -9,12 +9,16 @@ function App() {
           Ponere
         </a>
       </div>
-      <div style={{ alignItems: "center" }}>
-        <p style={{ textAlign: "center", fontSize: "20px" }}>
-          Select which area you'd like to correct:
-        </p>
-        <img className="photo" src={man} alt = "body for selection"/>
-      </div>
+      <div className="bannerFiller"></div>
+      <h1 style={{ textAlign: "center", fontSize: "20px" }}>
+              Select which area you'd like to correct:
+      </h1>
+      <div className="imageHolder">
+          <img className="photo" src={man} alt = "body for selection"/>
+            <a id="neckDiv" href="neck"></a>
+            <a id="upperBackDiv" href="upperBack"></a>
+            <a id="lowerBackDiv" href="lowerBack"></a>
+          </div>
     </div>
   );
 }

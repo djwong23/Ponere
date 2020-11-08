@@ -1,11 +1,83 @@
 .photo {
-  height: 500px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 800px) {
+  .photo {
+     width:80%;
+  }
+    #neckDiv{
+      width: 12.5%;
+      height: 10%;
+      top:20%;
+      left:44%;
+    }
+    #upperBackDiv{
+      width: 40%;
+      height: 25%;
+      top:30%;
+      left:30%;
+    }
+    #lowerBackDiv{
+      width: 30%;
+      height: 25%;
+      top: 55%;
+      left:35%;
+    }
+}
+@media only screen and (min-width: 800px) and (max-width: 1500px) {
+  .photo {
+     width:50%;
+  }
+    #neckDiv{
+      width: 7.5%;
+      height: 10%;
+      top:20%;
+      left:46.25%;
+    }
+    #upperBackDiv{
+      width: 25%;
+      height: 25%;
+      top:30%;
+      left:38%;
+    }
+    #lowerBackDiv{
+      width: 18%;
+      height: 25%;
+      top: 55%;
+      left:41%;
+    }
+}
+@media only screen and (min-width: 1500px) {
+  .photo {
+     width:30%;
+  }
+    #neckDiv{
+      width: 5%;
+      height: 10%;
+      top:20%;
+      left:47.5%;
+    }
+    #upperBackDiv{
+      width: 15%;
+      height: 25%;
+      top:30%;
+      left:42.5%;
+    }
+    #lowerBackDiv{
+      width: 10%;
+      height: 25%;
+      top: 55%;
+      left:45%;
+    }
 }
 
 html,
 body,
 #root {
-  display: flex;
+  display: block;
   background: rgb(224, 224, 224);
   color: #000000;
   height: 100%;
@@ -22,11 +94,22 @@ body,
   font-weight: bold;
   font-size: 25px;
   color: rgb(83, 83, 83);
-  position: absolute;
+  position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
   background: rgb(233, 233, 233);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  height:4vh;
+}
+.bannerFiller{
+  position: relative;
+  width: 100%;
+  height:4vh;
   padding-top: 10px;
   padding-bottom: 10px;
   align-items: center;
@@ -45,4 +128,23 @@ body,
 
 a:hover {
   color: #000;
+}
+
+#neckDiv{
+  display: block;
+  position:absolute;
+}
+#upperBackDiv{
+  display: block;
+  position:absolute;
+}
+#lowerBackDiv{
+  display: block;
+  position:absolute;
+}
+.imageHolder{
+  display:block;
+  position:relative;
+  width:auto;
+  height:auto;
 }
