@@ -32,7 +32,7 @@ class App extends React.Component {
     return (
       <div>
         <div className="banner">
-          <a className="home" href="/">
+          <a className="home" href="/Ponere/">
             Ponere
           </a>
         </div>
