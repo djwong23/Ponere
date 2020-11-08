@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Ponere/static/css/main.2b4fc6ab.chunk.css",
+    "main.js": "/Ponere/static/js/main.8ffc55c6.chunk.js",
+    "main.js.map": "/Ponere/static/js/main.8ffc55c6.chunk.js.map",
+    "runtime-main.js": "/Ponere/static/js/runtime-main.34ee4d35.js",
+    "runtime-main.js.map": "/Ponere/static/js/runtime-main.34ee4d35.js.map",
+    "static/js/2.c6c0efe3.chunk.js": "/Ponere/static/js/2.c6c0efe3.chunk.js",
+    "static/js/2.c6c0efe3.chunk.js.map": "/Ponere/static/js/2.c6c0efe3.chunk.js.map",
+    "static/js/3.936793db.chunk.js": "/Ponere/static/js/3.936793db.chunk.js",
+    "static/js/3.936793db.chunk.js.map": "/Ponere/static/js/3.936793db.chunk.js.map",
+    "index.html": "/Ponere/index.html",
+    "static/css/main.2b4fc6ab.chunk.css.map": "/Ponere/static/css/main.2b4fc6ab.chunk.css.map",
+    "static/js/2.c6c0efe3.chunk.js.LICENSE.txt": "/Ponere/static/js/2.c6c0efe3.chunk.js.LICENSE.txt",
+    "static/media/back-stretches1.5fc79db6.jpeg": "/Ponere/static/media/back-stretches1.5fc79db6.jpeg",
+    "static/media/back-stretches2.9110ce7c.jpeg": "/Ponere/static/media/back-stretches2.9110ce7c.jpeg",
+    "static/media/mans.9a7dbe14.png": "/Ponere/static/media/mans.9a7dbe14.png",
+    "static/media/neck-stretches.19e75127.jpg": "/Ponere/static/media/neck-stretches.19e75127.jpg",
+    "static/media/scapular-wall-slide.49d75e81.jpg": "/Ponere/static/media/scapular-wall-slide.49d75e81.jpg",
+    "static/media/upperRope.c897fefa.png": "/Ponere/static/media/upperRope.c897fefa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.34ee4d35.js",
+    "static/js/2.c6c0efe3.chunk.js",
+    "static/css/main.2b4fc6ab.chunk.css",
+    "static/js/main.8ffc55c6.chunk.js"
+  ]
+}
