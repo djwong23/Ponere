@@ -30,3 +30,17 @@ body,
   padding: 30px;
   
 }
+
+.home {
+  text-align: center;
+  text-decoration: none;
+  color: #535353;
+  padding-left: 10%;
+  position: absolute;
+  top: 33%;
+  text-shadow: 2px 2px 4px #c9c8c8;
+}
+
+a:hover {
+  color: #000;
+}

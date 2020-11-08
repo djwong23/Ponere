@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <div className="banner">
-        <a style={{ textAlign: "center", textDecoration: "none", color: '#535353', paddingLeft: '10%', position: 'absolute', top: '33%'}} href = "/">Ponere</a>
+        <a className ="home" href = "/">Ponere</a>
       </div>
       <div style={{ alignItems: "center" }}>
         <p style={{ textAlign: "center", fontSize: "20px" }}>
