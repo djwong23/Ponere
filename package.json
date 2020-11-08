@@ -1,4 +1,5 @@
 {
+  "homepage": "http://djwong23.github.io/Ponere",
   "name": "ponere",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +16,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +45,7 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^7.13.0",
     "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint-plugin-import": "^2.22.1",
+    "gh-pages": "^3.1.0"
   }
 }
