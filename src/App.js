@@ -34,12 +34,12 @@ function App() {
       </h1>
 
       <div className="imageHolder">
-            <img className="neck" id="neck" width="30%" height="auto" src = {neck} alt="neck"/>
-            <div className="upper" id="upper">
+            <img className="neck fade" id="neck" width="30%" height="auto" src = {neck} alt="neck"/>
+            <div className="upper fade" id="upper">
               <img className="upper1" width="30%" height="auto" src = {upperback1} alt="back"/>
               <img className="upper2" width="30%" height="auto" src = {upperback2} alt="back"/>
             </div>
-            <div className="lower" id="lower">
+            <div className="lower fade" id="lower">
               <img className="lower1"  width="30%" height="auto" src = {lowerback1} alt="lowerback1"/>
               <img className="lower2"  width="30%" height="auto" src = {lowerback2} alt="lowerback2"/>
             </div>
