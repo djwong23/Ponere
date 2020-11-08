@@ -8,8 +8,7 @@ import lowerback2 from "./back-stretches2.jpeg";
 import neck from "./neck-stretches.jpg";
 import ReactTooltip from "react-tooltip";
 import { UncontrolledPopover, PopoverHeader, PopoverBody } from "reactstrap";
-import React from 'react';
-
+import React from "react";
 
 class App extends React.Component {
   constructor(props) {
@@ -21,7 +20,7 @@ class App extends React.Component {
   }
 
   setToOpen(string) {
-    this.setState({clicked: true});
+    this.setState({ clicked: true });
     if (this.state.picturesOpen != " ") {
       document.getElementById(this.state.picturesOpen).style.opacity = 0;
     }
@@ -85,7 +84,11 @@ class App extends React.Component {
           </div>
 
           <img className="photo" src={man} alt="body for selection" />
-          <a data-tip="Neck" id="neckDiv" onClick={() => this.setToOpen("neck")}></a>
+          <a
+            data-tip="Neck"
+            id="neckDiv"
+            onClick={() => this.setToOpen("neck")}
+          ></a>
           <a
             data-tip="Upper Back & Shoulders"
             id="upperBackDiv"
@@ -99,7 +102,11 @@ class App extends React.Component {
           <ReactTooltip />
         </div>
 
-        <div className="instruction">{this.state.clicked == true ? <p>Here are some exercises to alleviate bad posture.</p> : null}</div>
+        <div className="instruction">
+          {this.state.clicked == true ? (
+            <p>Here are some exercises to alleviate bad posture.</p>
+          ) : null}
+        </div>
       </div>
     );
   }
